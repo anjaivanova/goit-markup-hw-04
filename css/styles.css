@@ -481,7 +481,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -525,7 +525,8 @@ p {
     fill: var(--title-text-color);
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus  {
     background-color: var(--accent-color);
     fill: var(--main-bg-color);
 }
@@ -567,6 +568,12 @@ p {
     cursor: pointer;
 }
 
+.client-icon:hover,
+.client-icon:focus {
+    background-color: var(--accent-color);
+    fill: var(--main-bg-color);
+}
+
 .icon {
     fill: currentColor;
     margin-right: 10px;
@@ -594,10 +601,19 @@ p {
     border-radius: 50%;
     fill: #AFB1B8;
 }
+
+.social.list li:last-child {
+    margin-right: 0;
+}
     
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--accent-color);
     fill: var(--main-bg-color);
+}
+
+.social-items {
+    margin-right: 10px;
 }
 
 .team-descr p {
