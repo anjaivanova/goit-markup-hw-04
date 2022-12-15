@@ -570,8 +570,11 @@ p {
 
 .client-icon:hover,
 .client-icon:focus {
-    background-color: var(--accent-color);
-    fill: var(--main-bg-color);
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
 }
 
 .icon {
